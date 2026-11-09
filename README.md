@@ -2,6 +2,8 @@
 
 A physical music controller built around Raspberry Pi Pico 2. Nine Hall-sensor tiles bring individual audio stems in and out of a mix. A rotary control handles volume and library selection, and a small LCD shows the current bank and active stems.
 
+The key engineering question is how nine loops can keep their place while physical controls and storage change. The player starts all voices under a paused I2S stream, changes gains during playback, and admits a cached bank only after WAV and hash checks. [The engineering walkthrough](ENGINEERING.md) traces that path, its timing, and the separate recovery bank.
+
 This repository contains CircuitPython firmware, host-side preparation and installation tools, tests, and a KiCad carrier-board design. Audio recordings and device-specific backups are excluded.
 
 ## What works in the code
