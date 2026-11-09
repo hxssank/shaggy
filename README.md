@@ -2,9 +2,23 @@
 
 A physical music controller built around Raspberry Pi Pico 2. Nine Hall-sensor tiles bring individual audio stems in and out of a mix. A rotary control handles volume and library selection, and a small LCD shows the current bank and active stems.
 
-The key engineering question is how nine loops can keep their place while physical controls and storage change. The player starts all voices under a paused I2S stream, changes gains during playback, and admits a cached bank only after WAV and hash checks. [The engineering walkthrough](ENGINEERING.md) traces that path, its timing, and the separate recovery bank.
+The player starts all voices under a paused I2S stream, changes gains during playback, and admits a cached bank only after WAV and hash checks. [The engineering walkthrough](ENGINEERING.md) traces playback timing and the separate recovery bank.
 
 This repository contains CircuitPython firmware, host-side preparation and installation tools, tests, and a KiCad carrier-board design. Audio recordings and device-specific backups are excluded.
+
+## Open the carrier-board files
+
+| File | Contents |
+| --- | --- |
+| [Schematic PDF](hardware/pcb/reports/schematic.pdf) and [KiCad schematic](hardware/pcb/shaggy-carrier.kicad_sch) | Pico, Hall-sensor, display, DAC and microSD connections |
+| [KiCad board](hardware/pcb/shaggy-carrier.kicad_pcb) and [top view](hardware/pcb/preview/shaggy-top.png) | 100 x 80 mm revision A carrier |
+| [Board STEP](hardware/pcb/shaggy-carrier.step) and [3D view](hardware/pcb/preview/shaggy-3d.png) | Carrier geometry for mechanical review |
+| [BOM](hardware/pcb/bom.csv) | Component references, quantities and footprints |
+| [Cable pinout](hardware/pcb/cable-pinout.csv) | Connector pin numbers, nets and wire labels |
+| [Gerbers and drills](hardware/pcb/fabrication-prototype/) | Revision A prototype fabrication exports |
+| [DRC report](hardware/pcb/reports/pcb-drc.json) | Current board check, including the configured exclusions |
+
+KiCad 10.0.7 reported zero violations, unconnected items or schematic-parity issues on November 9. The report lists six disabled checks, including missing courtyards and footprint-filter mismatches. Review those exclusions and the actual module pinouts before ordering a PCB. No fabricated carrier test is recorded.
 
 ## What works in the code
 

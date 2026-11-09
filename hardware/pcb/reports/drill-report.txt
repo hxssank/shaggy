@@ -1,0 +1,25 @@
+Drill report for shaggy-carrier.kicad_pcb
+Created on 2026-11-09T16:06:39
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'shaggy-carrier-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (27 holes))
+    T2  0.950mm  0.0374"  (53 holes))
+    T3  1.000mm  0.0394"  (43 holes))
+
+    Total plated holes count 123
+
+
+Drill file 'shaggy-carrier-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.200mm  0.1260"  (4 holes))
+
+    Total unplated holes count 4
