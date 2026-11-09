@@ -1,0 +1,28 @@
+[project]
+name = "shaggy-pico2"
+version = "0.1.0"
+requires-python = ">=3.13,<3.15"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py313"
+extend-exclude = [".hardware-tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[dependency-groups]
+dev = [
+    "circuitpython-stubs==10.2.1",
+    "circup>=3.1.0",
+    "mpremote==1.29.0",
+    "pytest>=9.2.0",
+    "ruff>=0.17.3",
+]

@@ -1,0 +1,55 @@
+Reference,Quantity,Value,Footprint or assembly part,Assembly note
+U1,1,Raspberry Pi Pico 2 socket,Module:RaspberryPi_Pico_Common_THT,Reuse existing Pico 2; fit two 1x20 sockets
+J1,1,TILE 1,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+R1,1,10k,Resistor_SMD:R_0805_2012Metric,
+J2,1,TILE 2,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+R2,1,10k,Resistor_SMD:R_0805_2012Metric,
+J3,1,TILE 3,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+R3,1,10k,Resistor_SMD:R_0805_2012Metric,
+J4,1,TILE 4,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+R4,1,10k,Resistor_SMD:R_0805_2012Metric,
+J5,1,TILE 5,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+R5,1,10k,Resistor_SMD:R_0805_2012Metric,
+J6,1,TILE 6,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+R6,1,10k,Resistor_SMD:R_0805_2012Metric,
+J7,1,TILE 7,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+R7,1,10k,Resistor_SMD:R_0805_2012Metric,
+J8,1,TILE 8,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+R8,1,10k,Resistor_SMD:R_0805_2012Metric,
+J9,1,TILE 9,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+R9,1,10k,Resistor_SMD:R_0805_2012Metric,
+U2,1,74LVC244AD,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,Nexperia 74LVC244AD; Schmitt inputs required
+U3,1,74LVC244AD,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,Nexperia 74LVC244AD; Schmitt inputs required
+C1,1,100nF,Capacitor_SMD:C_0805_2012Metric,
+C2,1,100nF,Capacitor_SMD:C_0805_2012Metric,
+JP1,1,HALL SUPPLY: 1-2=3V3 / 2-3=5V,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Fit one shunt only; default pins 1-2 for 3.3V
+U4,1,MCP1826S-3302E/DB,Package_TO_SOT_SMD:SOT-223-3_TabPin2,
+C3,1,10uF 16V X7R,Capacitor_SMD:C_0805_2012Metric,X7R +/-10%; select part with at least 1uF effective at operating bias and temperature
+C4,1,10uF 16V X7R,Capacitor_SMD:C_0805_2012Metric,X7R +/-10%; select part with at least 1uF effective at operating bias and temperature
+J10,1,LCD,Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical,
+J11,1,SD,Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,
+J12,1,DAC / TLV320,Connector_JST:JST_XH_B9B-XH-A_1x09_P2.50mm_Vertical,
+J13,1,VOLUME,Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+C5,1,100nF,Capacitor_SMD:C_0805_2012Metric,
+C6,1,100nF,Capacitor_SMD:C_0805_2012Metric,
+C7,1,100nF,Capacitor_SMD:C_0805_2012Metric,
+C8,1,100nF,Capacitor_SMD:C_0805_2012Metric,
+C9,1,100nF,Capacitor_SMD:C_0805_2012Metric,
+C10,1,10uF 16V X7R,Capacitor_SMD:C_0805_2012Metric,X7R +/-10%; select part with at least 1uF effective at operating bias and temperature
+R10,1,100k,Resistor_SMD:R_0805_2012Metric,
+R11,1,10k,Resistor_SMD:R_0805_2012Metric,
+R12,1,10k,Resistor_SMD:R_0805_2012Metric,
+R13,1,1k,Resistor_SMD:R_0805_2012Metric,
+R14,1,100k,Resistor_SMD:R_0805_2012Metric,
+R15,1,33R,Resistor_SMD:R_0805_2012Metric,
+R16,1,33R,Resistor_SMD:R_0805_2012Metric,
+R17,1,33R,Resistor_SMD:R_0805_2012Metric,
+R18,1,33R,Resistor_SMD:R_0805_2012Metric,
+R19,1,33R,Resistor_SMD:R_0805_2012Metric,
+U1 sockets,2,"1x20 female socket, 2.54mm pitch",Through-hole,Match Pico header pin height
+JP1 shunt,1,2.54mm 2-pin shunt,Removable,Default pins 1-2
+Cable housings 3-way,10,JST XH 3-position mating housing,Cable assembly,Re-pin to carrier pinout; module wire order is not assumed
+Cable housings 6-way,1,JST XH 6-position mating housing,Cable assembly,Re-pin to carrier pinout; module wire order is not assumed
+Cable housings 8-way,1,JST XH 8-position mating housing,Cable assembly,Re-pin to carrier pinout; module wire order is not assumed
+Cable housings 9-way,1,JST XH 9-position mating housing,Cable assembly,Re-pin to carrier pinout; module wire order is not assumed
+Cable terminals,53,Matching JST XH crimp contacts,Cable assembly,Select contacts for the actual wire gauge

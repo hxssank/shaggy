@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>shaggy-carrier.kicad_sch</source>
+    <date>2026-10-29T18:28:05</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Shaggy breadboard replacement</title>
+        <company>Shaggy</company>
+        <rev>A - prototype</rev>
+        <date>2026-10-29</date>
+        <source>shaggy-carrier.kicad_sch</source>
+        <comment number="1" value="100 x 80 mm provisional carrier. Verify fit before fabrication."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e5c0b06-53f2-595a-888e-b03648919372</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4282aa63-6506-5c50-8b3b-d003afffa6a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10uF 16V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>490a2a28-343b-5466-8abd-d76d2099774a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10uF 16V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66e2348f-45af-550e-94f8-399ae6b1f710</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aeda37b7-1929-552b-8db5-56004c0e0dcb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d43be8ae-757b-57ed-aa35-182c64486cb1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b90bef38-fce5-556b-a2a9-fbd275bc59e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6784bf76-925b-51fc-9e4e-4251e642f4a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db0148ca-bce9-51bd-94ff-6cc8bd47e01d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>10uF 16V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="C" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81f5c94a-8f5f-5789-94b8-fd3c898b51c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M3 clearance</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Mounting_hole" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af66bbe8-a708-59c3-92e1-169155826910</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M3 clearance</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Mounting_hole" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0db59a80-192c-5318-b25a-b21273cfae5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M3 clearance</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Mounting_hole" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40eee79c-64d9-5684-9a3b-5bd0f4a46015</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M3 clearance</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Mounting_hole" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99659aa2-74d5-5c02-b175-5fc7ec8ba356</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>TILE 1</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db66ca5a-1de3-577f-a0c6-679c14ac725d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>TILE 2</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23bf1685-c503-5a35-88c4-cfe6f8125493</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>TILE 3</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>711d40f4-e3e3-55b4-9344-f5f25617fd7f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>TILE 4</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7976ec4b-c7a6-5852-a405-586d7cc8f8d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>TILE 5</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a66a1d6-4482-5479-b790-96f9d2829ae4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>TILE 6</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>deb8616e-b3b7-5d89-b2dd-12ef37891dfb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>TILE 7</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b77c42ff-7304-53a5-8ada-05492598fa82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>TILE 8</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35275aec-f4ba-552d-a971-23f998c516f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>TILE 9</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef378b0f-8d70-57d1-b8bc-b46934569314</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>LCD</value>
+      <footprint>Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="LCD_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41534fe6-7ae3-53da-9a8e-6f06fede1ad1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>SD</value>
+      <footprint>Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="SD_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47241865-3e7f-554c-b078-6f528e8e66a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>DAC / TLV320</value>
+      <footprint>Connector_JST:JST_XH_B9B-XH-A_1x09_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B9B-XH-A_1x09_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="DAC_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>837b0bfa-d54e-5b0b-876e-f7964d60a153</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>VOLUME</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Pot_cable" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1b1295b-cb52-596f-9359-816b238abd36</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>HALL SUPPLY: 1-2=3V3 / 2-3=5V</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Hall_supply_select" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ceedf5d-d96c-58f3-9475-2a4aa7d11192</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b56dfcef-cd47-5c69-ac6b-2eeb48d9603e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb45dfe2-ca8e-5c77-9e00-b04ade33a39c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f02fe3c7-4726-54de-8abd-be1dc4e7c4bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20fe96d1-0320-51ee-9390-2237a4bb4d7a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84901236-2a8e-5ea9-9731-f53f12d37e8d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c32b6a1f-e5dc-5f53-946f-80deba702f9d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b536476a-8c45-50f6-b5fd-aaf6f76546b5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70650452-8fb0-5038-b348-1067781abe76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80eb9017-f1a1-56ee-9afc-add4312542e9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae37f21f-5386-5543-9f44-a7ea07ddc663</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26f1ea3d-169f-5e00-a09a-7719b96451a9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b12d0949-6dd8-5be7-a420-e489585a6d96</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7ebb80a-a8f8-548f-83c4-369f8e37eb7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47259fbb-4ba9-557c-a67e-856dee9a9a6c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d545417d-2021-5f2a-b86a-1918b81cf637</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19f9e8a2-c669-5265-a777-5a1fbee9d6e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bccd81bb-c06f-5879-a15b-2ea94bc26cc4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cb239c8-72b6-5612-aa5f-97fe09513239</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="R" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ae6739d-185e-5976-bd40-f90d53223a39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>Raspberry Pi Pico 2 socket</value>
+      <footprint>Module:RaspberryPi_Pico_Common_THT</footprint>
+      <datasheet>https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Module:RaspberryPi_Pico_Common_THT</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="Pico_2_socket" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bcef5e5-b476-525c-a859-df675f0144fb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="40"/>
+            <pin num="39"/>
+            <pin num="38"/>
+            <pin num="37"/>
+            <pin num="36"/>
+            <pin num="35"/>
+            <pin num="34"/>
+            <pin num="33"/>
+            <pin num="32"/>
+            <pin num="31"/>
+            <pin num="30"/>
+            <pin num="29"/>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="26"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>74LVC244AD</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="74LVC244AD" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21fc68d1-eb97-5ba5-882e-9ace14a20dde</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="18"/>
+            <pin num="16"/>
+            <pin num="14"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>74LVC244AD</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="74LVC244AD" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34f21a80-7f3c-5666-a517-69ce9d1f8d02</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="18"/>
+            <pin num="16"/>
+            <pin num="14"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>MCP1826S-3302E/DB</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shaggy" part="MCP1826S" description=""/>
+      <property name="Sheetname" value="shaggy-carrier"/>
+      <property name="Sheetfile" value="shaggy-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7685c17a-e437-5b69-aef2-ef6ca70b47c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Shaggy" part="74LVC244AD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC244AD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="~{1OE}" type="input"/>
+        <pin num="2" name="1A0" type="input"/>
+        <pin num="3" name="2Y0" type="tri_state"/>
+        <pin num="4" name="1A1" type="input"/>
+        <pin num="5" name="2Y1" type="tri_state"/>
+        <pin num="6" name="1A2" type="input"/>
+        <pin num="7" name="2Y2" type="tri_state"/>
+        <pin num="8" name="1A3" type="input"/>
+        <pin num="9" name="2Y3" type="tri_state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="2A3" type="input"/>
+        <pin num="12" name="1Y3" type="tri_state"/>
+        <pin num="13" name="2A2" type="input"/>
+        <pin num="14" name="1Y2" type="tri_state"/>
+        <pin num="15" name="2A1" type="input"/>
+        <pin num="16" name="1Y1" type="tri_state"/>
+        <pin num="17" name="2A0" type="input"/>
+        <pin num="18" name="1Y0" type="tri_state"/>
+        <pin num="19" name="~{2OE}" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="DAC_cable">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DAC_cable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="RST" type="passive"/>
+        <pin num="4" name="SDA" type="passive"/>
+        <pin num="5" name="SCL" type="passive"/>
+        <pin num="6" name="BCLK" type="passive"/>
+        <pin num="7" name="WCLK" type="passive"/>
+        <pin num="8" name="DIN" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="Hall_cable">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Hall_cable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SIG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="Hall_supply_select">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Hall_supply_select</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="passive"/>
+        <pin num="2" name="HALL_V" type="passive"/>
+        <pin num="3" name="5V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="LCD_cable">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">LCD_cable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="DIN" type="passive"/>
+        <pin num="4" name="CLK" type="passive"/>
+        <pin num="5" name="CS" type="passive"/>
+        <pin num="6" name="DC" type="passive"/>
+        <pin num="7" name="RST" type="passive"/>
+        <pin num="8" name="BL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="MCP1826S">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1826S</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND/TAB" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="Mounting_hole">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Mounting_hole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="Shaggy" part="Pico_2_socket">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pico_2_socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0" type="bidirectional"/>
+        <pin num="2" name="GP1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GP2" type="bidirectional"/>
+        <pin num="5" name="GP3" type="bidirectional"/>
+        <pin num="6" name="GP4" type="bidirectional"/>
+        <pin num="7" name="GP5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GP6" type="bidirectional"/>
+        <pin num="10" name="GP7" type="bidirectional"/>
+        <pin num="11" name="GP8" type="bidirectional"/>
+        <pin num="12" name="GP9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GP10" type="bidirectional"/>
+        <pin num="15" name="GP11" type="bidirectional"/>
+        <pin num="16" name="GP12" type="bidirectional"/>
+        <pin num="17" name="GP13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GP14" type="bidirectional"/>
+        <pin num="20" name="GP15" type="bidirectional"/>
+        <pin num="21" name="GP16" type="bidirectional"/>
+        <pin num="22" name="GP17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GP18" type="bidirectional"/>
+        <pin num="25" name="GP19" type="bidirectional"/>
+        <pin num="26" name="GP20" type="bidirectional"/>
+        <pin num="27" name="GP21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GP22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GP26/ADC0" type="bidirectional"/>
+        <pin num="32" name="GP27/ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GP28/ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3_OUT" type="power_out"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS_USB" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="Pot_cable">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Pot_cable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CW" type="passive"/>
+        <pin num="2" name="WIPER" type="passive"/>
+        <pin num="3" name="CCW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shaggy" part="SD_cable">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SD_cable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="passive"/>
+        <pin num="2" name="CS" type="passive"/>
+        <pin num="3" name="MOSI" type="passive"/>
+        <pin num="4" name="CLK" type="passive"/>
+        <pin num="5" name="MISO" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Shaggy">
+      <uri>${KIPRJMOD}/shaggy-carrier.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AUX_3V3" class="Power">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="3V3_1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="3V3_1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="VOUT_3" pintype="power_out"/>
+    </net>
+    <net code="2" name="DAC_RST" class="Default">
+      <node ref="J12" pin="3" pinfunction="RST_3" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="GP13_17" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J11" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J12" pin="9" pinfunction="GND_9" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="CCW_3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND_18" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="GND_23" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="GND_28" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="AGND_33" pintype="power_in"/>
+      <node ref="U1" pin="38" pinfunction="GND_38" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="~{1OE}_1" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="2A2_13" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="2A1_15" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="2A0_17" pintype="input"/>
+      <node ref="U2" pin="19" pinfunction="~{2OE}_19" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="~{1OE}_1" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="2A2_13" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="2A1_15" pintype="input"/>
+      <node ref="U3" pin="17" pinfunction="2A0_17" pintype="input"/>
+      <node ref="U3" pin="19" pinfunction="~{2OE}_19" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="GND/TAB_2" pintype="power_in"/>
+    </net>
+    <net code="4" name="HALL1" class="Default">
+      <node ref="J1" pin="3" pinfunction="SIG_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="1A0_2" pintype="input"/>
+    </net>
+    <net code="5" name="HALL2" class="Default">
+      <node ref="J2" pin="3" pinfunction="SIG_3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="1A1_4" pintype="input"/>
+    </net>
+    <net code="6" name="HALL3" class="Default">
+      <node ref="J3" pin="3" pinfunction="SIG_3" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="1A2_6" pintype="input"/>
+    </net>
+    <net code="7" name="HALL4" class="Default">
+      <node ref="J4" pin="3" pinfunction="SIG_3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="1A3_8" pintype="input"/>
+    </net>
+    <net code="8" name="HALL5" class="Default">
+      <node ref="J5" pin="3" pinfunction="SIG_3" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="2A3_11" pintype="input"/>
+    </net>
+    <net code="9" name="HALL6" class="Default">
+      <node ref="J6" pin="3" pinfunction="SIG_3" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="1A0_2" pintype="input"/>
+    </net>
+    <net code="10" name="HALL7" class="Default">
+      <node ref="J7" pin="3" pinfunction="SIG_3" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="1A1_4" pintype="input"/>
+    </net>
+    <net code="11" name="HALL8" class="Default">
+      <node ref="J8" pin="3" pinfunction="SIG_3" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="1A2_6" pintype="input"/>
+    </net>
+    <net code="12" name="HALL9" class="Default">
+      <node ref="J9" pin="3" pinfunction="SIG_3" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="1A3_8" pintype="input"/>
+    </net>
+    <net code="13" name="HALL_V" class="Power">
+      <node ref="J1" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="HALL_V_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="I2C_SCL" class="Default">
+      <node ref="J12" pin="5" pinfunction="SCL_5" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="GP15_20" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="I2C_SDA" class="Default">
+      <node ref="J12" pin="4" pinfunction="SDA_4" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="GP14_19" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="I2S_BCLK" class="Default">
+      <node ref="J12" pin="6" pinfunction="BCLK_6" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="I2S_DATA" class="Default">
+      <node ref="J12" pin="8" pinfunction="DIN_8" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="I2S_WCLK" class="Default">
+      <node ref="J12" pin="7" pinfunction="WCLK_7" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="LCD_CS" class="Default">
+      <node ref="J10" pin="5" pinfunction="CS_5" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="GP12_16" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="LCD_DC" class="Default">
+      <node ref="J10" pin="6" pinfunction="DC_6" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="GP28/ADC2_34" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="LCD_RST" class="Default">
+      <node ref="J10" pin="7" pinfunction="RST_7" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="2Y3_9" pintype="tri_state"/>
+    </net>
+    <net code="22" name="LCD_RST_DELAY" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="2A3_11" pintype="input"/>
+    </net>
+    <net code="23" name="MCU_BCLK" class="Default">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GP16_21" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="MCU_I2S_DATA" class="Default">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="GP18_24" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="MCU_MOSI" class="Default">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="GP19_25" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="MCU_SCK" class="Default">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="GP22_29" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="MCU_WCLK" class="Default">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GP17_22" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="PICO_3V3" class="Power">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="J10" pin="8" pinfunction="BL_8" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="CW_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="3V3_OUT_36" pintype="power_out"/>
+      <node ref="U2" pin="20" pinfunction="VCC_20" pintype="power_in"/>
+      <node ref="U3" pin="20" pinfunction="VCC_20" pintype="power_in"/>
+    </net>
+    <net code="29" name="POT_WIPER" class="Default">
+      <node ref="J13" pin="2" pinfunction="WIPER_2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="SD_CS" class="Default">
+      <node ref="J11" pin="2" pinfunction="CS_2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="GP21_27" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="SPI_MISO" class="Default">
+      <node ref="J11" pin="5" pinfunction="MISO_5" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="GP20_26" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="SPI_MOSI" class="Default">
+      <node ref="J10" pin="3" pinfunction="DIN_3" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="MOSI_3" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="SPI_SCK" class="Default">
+      <node ref="J10" pin="4" pinfunction="CLK_4" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="CLK_4" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="TILE1" class="Default">
+      <node ref="U1" pin="1" pinfunction="GP0_1" pintype="bidirectional"/>
+      <node ref="U2" pin="18" pinfunction="1Y0_18" pintype="tri_state"/>
+    </net>
+    <net code="35" name="TILE2" class="Default">
+      <node ref="U1" pin="2" pinfunction="GP1_2" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="1Y1_16" pintype="tri_state"/>
+    </net>
+    <net code="36" name="TILE3" class="Default">
+      <node ref="U1" pin="4" pinfunction="GP2_4" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="1Y2_14" pintype="tri_state"/>
+    </net>
+    <net code="37" name="TILE4" class="Default">
+      <node ref="U1" pin="5" pinfunction="GP3_5" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="1Y3_12" pintype="tri_state"/>
+    </net>
+    <net code="38" name="TILE5" class="Default">
+      <node ref="U1" pin="6" pinfunction="GP4_6" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="2Y3_9" pintype="tri_state"/>
+    </net>
+    <net code="39" name="TILE6" class="Default">
+      <node ref="U1" pin="7" pinfunction="GP5_7" pintype="bidirectional"/>
+      <node ref="U3" pin="18" pinfunction="1Y0_18" pintype="tri_state"/>
+    </net>
+    <net code="40" name="TILE7" class="Default">
+      <node ref="U1" pin="9" pinfunction="GP6_9" pintype="bidirectional"/>
+      <node ref="U3" pin="16" pinfunction="1Y1_16" pintype="tri_state"/>
+    </net>
+    <net code="41" name="TILE8" class="Default">
+      <node ref="U1" pin="10" pinfunction="GP7_10" pintype="bidirectional"/>
+      <node ref="U3" pin="14" pinfunction="1Y2_14" pintype="tri_state"/>
+    </net>
+    <net code="42" name="TILE9" class="Default">
+      <node ref="U1" pin="11" pinfunction="GP8_11" pintype="bidirectional"/>
+      <node ref="U3" pin="12" pinfunction="1Y3_12" pintype="tri_state"/>
+    </net>
+    <net code="43" name="VBUS_5V" class="USB power">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="VIN_1" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="5V_3" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="VBUS_USB_40" pintype="power_out"/>
+      <node ref="U4" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+    </net>
+    <net code="44" name="VOLUME_ADC" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="GP26/ADC0_31" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(U1-3V3_EN-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="3V3_EN_37" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-ADC_VREF-Pad35)" class="Default">
+      <node ref="U1" pin="35" pinfunction="ADC_VREF_35" pintype="power_in+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-GP9-Pad12)" class="Default">
+      <node ref="U1" pin="12" pinfunction="GP9_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-GP10-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="GP10_14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-GP11-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="GP11_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-GP27/ADC1-Pad32)" class="Default">
+      <node ref="U1" pin="32" pinfunction="GP27/ADC1_32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-RUN-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="RUN_30" pintype="input+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-VSYS-Pad39)" class="Default">
+      <node ref="U1" pin="39" pinfunction="VSYS_39" pintype="power_in+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U2-2Y0-Pad3)" class="Default">
+      <node ref="U2" pin="3" pinfunction="2Y0_3" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U2-2Y1-Pad5)" class="Default">
+      <node ref="U2" pin="5" pinfunction="2Y1_5" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U2-2Y2-Pad7)" class="Default">
+      <node ref="U2" pin="7" pinfunction="2Y2_7" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U3-2Y0-Pad3)" class="Default">
+      <node ref="U3" pin="3" pinfunction="2Y0_3" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U3-2Y1-Pad5)" class="Default">
+      <node ref="U3" pin="5" pinfunction="2Y1_5" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3-2Y2-Pad7)" class="Default">
+      <node ref="U3" pin="7" pinfunction="2Y2_7" pintype="tri_state+no_connect"/>
+    </net>
+  </nets>
+</export>

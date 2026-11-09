@@ -1,0 +1,57 @@
+Connector,Pin,Net,Destination,Note
+J1,1,GND,Hall GND,Verify sensor printed pin order and voltage
+J1,2,HALL_V,Hall supply,Verify sensor printed pin order and voltage
+J1,3,HALL1,Hall signal,Verify sensor printed pin order and voltage
+J2,1,GND,Hall GND,Verify sensor printed pin order and voltage
+J2,2,HALL_V,Hall supply,Verify sensor printed pin order and voltage
+J2,3,HALL2,Hall signal,Verify sensor printed pin order and voltage
+J3,1,GND,Hall GND,Verify sensor printed pin order and voltage
+J3,2,HALL_V,Hall supply,Verify sensor printed pin order and voltage
+J3,3,HALL3,Hall signal,Verify sensor printed pin order and voltage
+J4,1,GND,Hall GND,Verify sensor printed pin order and voltage
+J4,2,HALL_V,Hall supply,Verify sensor printed pin order and voltage
+J4,3,HALL4,Hall signal,Verify sensor printed pin order and voltage
+J5,1,GND,Hall GND,Verify sensor printed pin order and voltage
+J5,2,HALL_V,Hall supply,Verify sensor printed pin order and voltage
+J5,3,HALL5,Hall signal,Verify sensor printed pin order and voltage
+J6,1,GND,Hall GND,Verify sensor printed pin order and voltage
+J6,2,HALL_V,Hall supply,Verify sensor printed pin order and voltage
+J6,3,HALL6,Hall signal,Verify sensor printed pin order and voltage
+J7,1,GND,Hall GND,Verify sensor printed pin order and voltage
+J7,2,HALL_V,Hall supply,Verify sensor printed pin order and voltage
+J7,3,HALL7,Hall signal,Verify sensor printed pin order and voltage
+J8,1,GND,Hall GND,Verify sensor printed pin order and voltage
+J8,2,HALL_V,Hall supply,Verify sensor printed pin order and voltage
+J8,3,HALL8,Hall signal,Verify sensor printed pin order and voltage
+J9,1,GND,Hall GND,Verify sensor printed pin order and voltage
+J9,2,HALL_V,Hall supply,Verify sensor printed pin order and voltage
+J9,3,HALL9,Hall signal,Verify sensor printed pin order and voltage
+JP1,1,AUX_3V3,3.3V option,Carrier pin numbers; build a labeled adapter cable
+JP1,2,HALL_V,Hall supply common,Carrier pin numbers; build a labeled adapter cable
+JP1,3,VBUS_5V,5V option,Carrier pin numbers; build a labeled adapter cable
+J10,1,PICO_3V3,LCD VCC,Carrier pin numbers; build a labeled adapter cable
+J10,2,GND,LCD GND,Carrier pin numbers; build a labeled adapter cable
+J10,3,SPI_MOSI,LCD DIN,Carrier pin numbers; build a labeled adapter cable
+J10,4,SPI_SCK,LCD CLK,Carrier pin numbers; build a labeled adapter cable
+J10,5,LCD_CS,LCD CS,Carrier pin numbers; build a labeled adapter cable
+J10,6,LCD_DC,LCD DC,Carrier pin numbers; build a labeled adapter cable
+J10,7,LCD_RST,LCD RST,Carrier pin numbers; build a labeled adapter cable
+J10,8,PICO_3V3,LCD BL,Carrier pin numbers; build a labeled adapter cable
+J11,1,AUX_3V3,SD 3V3,Carrier pin numbers; build a labeled adapter cable
+J11,2,SD_CS,SD CS,Carrier pin numbers; build a labeled adapter cable
+J11,3,SPI_MOSI,SD MOSI,Carrier pin numbers; build a labeled adapter cable
+J11,4,SPI_SCK,SD CLK,Carrier pin numbers; build a labeled adapter cable
+J11,5,SPI_MISO,SD MISO,Carrier pin numbers; build a labeled adapter cable
+J11,6,GND,SD GND,Carrier pin numbers; build a labeled adapter cable
+J12,1,VBUS_5V,DAC VIN 5V,Carrier pin numbers; build a labeled adapter cable
+J12,2,GND,DAC GND,Carrier pin numbers; build a labeled adapter cable
+J12,3,DAC_RST,DAC RST,Carrier pin numbers; build a labeled adapter cable
+J12,4,I2C_SDA,DAC SDA,Carrier pin numbers; build a labeled adapter cable
+J12,5,I2C_SCL,DAC SCL,Carrier pin numbers; build a labeled adapter cable
+J12,6,I2S_BCLK,DAC BCLK,Carrier pin numbers; build a labeled adapter cable
+J12,7,I2S_WCLK,DAC WSEL,Carrier pin numbers; build a labeled adapter cable
+J12,8,I2S_DATA,DAC DIN,Carrier pin numbers; build a labeled adapter cable
+J12,9,GND,DAC GND,Carrier pin numbers; build a labeled adapter cable
+J13,1,PICO_3V3,Pot outer terminal 3V3,Carrier pin numbers; build a labeled adapter cable
+J13,2,POT_WIPER,Pot wiper,Carrier pin numbers; build a labeled adapter cable
+J13,3,GND,Pot outer terminal GND,Carrier pin numbers; build a labeled adapter cable

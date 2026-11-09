@@ -1,0 +1,780 @@
+{
+  "name": "shaggy-carrier",
+  "revision": "A - prototype",
+  "width": 100,
+  "height": 80,
+  "root_uuid": "8e7d4394-f66b-5acc-b22a-c210b3dde0e5",
+  "components": [
+    {
+      "ref": "U1",
+      "value": "Raspberry Pi Pico 2 socket",
+      "footprint": "Module:RaspberryPi_Pico_Common_THT",
+      "pins": {
+        "1": "TILE1",
+        "2": "TILE2",
+        "3": "GND",
+        "4": "TILE3",
+        "5": "TILE4",
+        "6": "TILE5",
+        "7": "TILE6",
+        "8": "GND",
+        "9": "TILE7",
+        "10": "TILE8",
+        "11": "TILE9",
+        "12": null,
+        "13": "GND",
+        "14": null,
+        "15": null,
+        "16": "LCD_CS",
+        "17": "DAC_RST",
+        "18": "GND",
+        "19": "I2C_SDA",
+        "20": "I2C_SCL",
+        "21": "MCU_BCLK",
+        "22": "MCU_WCLK",
+        "23": "GND",
+        "24": "MCU_I2S_DATA",
+        "25": "MCU_MOSI",
+        "26": "SPI_MISO",
+        "27": "SD_CS",
+        "28": "GND",
+        "29": "MCU_SCK",
+        "30": null,
+        "31": "VOLUME_ADC",
+        "32": null,
+        "33": "GND",
+        "34": "LCD_DC",
+        "35": null,
+        "36": "PICO_3V3",
+        "37": null,
+        "38": "GND",
+        "39": null,
+        "40": "VBUS_5V"
+      },
+      "x": 45,
+      "y": 3,
+      "angle": 0,
+      "uuid": "8bcef5e5-b476-525c-a859-df675f0144fb",
+      "datasheet": "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf"
+    },
+    {
+      "ref": "J1",
+      "value": "TILE 1",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "HALL_V",
+        "3": "HALL1"
+      },
+      "x": 8,
+      "y": 11.0,
+      "angle": 0,
+      "uuid": "db66ca5a-1de3-577f-a0c6-679c14ac725d"
+    },
+    {
+      "ref": "R1",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "HALL_V",
+        "2": "HALL1"
+      },
+      "x": 20,
+      "y": 11.0,
+      "angle": 90,
+      "uuid": "b56dfcef-cd47-5c69-ac6b-2eeb48d9603e"
+    },
+    {
+      "ref": "J2",
+      "value": "TILE 2",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "HALL_V",
+        "3": "HALL2"
+      },
+      "x": 8,
+      "y": 17.8,
+      "angle": 0,
+      "uuid": "23bf1685-c503-5a35-88c4-cfe6f8125493"
+    },
+    {
+      "ref": "R2",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "HALL_V",
+        "2": "HALL2"
+      },
+      "x": 20,
+      "y": 17.8,
+      "angle": 90,
+      "uuid": "eb45dfe2-ca8e-5c77-9e00-b04ade33a39c"
+    },
+    {
+      "ref": "J3",
+      "value": "TILE 3",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "HALL_V",
+        "3": "HALL3"
+      },
+      "x": 8,
+      "y": 24.6,
+      "angle": 0,
+      "uuid": "711d40f4-e3e3-55b4-9344-f5f25617fd7f"
+    },
+    {
+      "ref": "R3",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "HALL_V",
+        "2": "HALL3"
+      },
+      "x": 20,
+      "y": 24.6,
+      "angle": 90,
+      "uuid": "f02fe3c7-4726-54de-8abd-be1dc4e7c4bb"
+    },
+    {
+      "ref": "J4",
+      "value": "TILE 4",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "HALL_V",
+        "3": "HALL4"
+      },
+      "x": 8,
+      "y": 31.4,
+      "angle": 0,
+      "uuid": "7976ec4b-c7a6-5852-a405-586d7cc8f8d1"
+    },
+    {
+      "ref": "R4",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "HALL_V",
+        "2": "HALL4"
+      },
+      "x": 20,
+      "y": 31.4,
+      "angle": 90,
+      "uuid": "20fe96d1-0320-51ee-9390-2237a4bb4d7a"
+    },
+    {
+      "ref": "J5",
+      "value": "TILE 5",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "HALL_V",
+        "3": "HALL5"
+      },
+      "x": 8,
+      "y": 38.2,
+      "angle": 0,
+      "uuid": "6a66a1d6-4482-5479-b790-96f9d2829ae4"
+    },
+    {
+      "ref": "R5",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "HALL_V",
+        "2": "HALL5"
+      },
+      "x": 20,
+      "y": 38.2,
+      "angle": 90,
+      "uuid": "84901236-2a8e-5ea9-9731-f53f12d37e8d"
+    },
+    {
+      "ref": "J6",
+      "value": "TILE 6",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "HALL_V",
+        "3": "HALL6"
+      },
+      "x": 8,
+      "y": 45.0,
+      "angle": 0,
+      "uuid": "deb8616e-b3b7-5d89-b2dd-12ef37891dfb"
+    },
+    {
+      "ref": "R6",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "HALL_V",
+        "2": "HALL6"
+      },
+      "x": 20,
+      "y": 45.0,
+      "angle": 90,
+      "uuid": "c32b6a1f-e5dc-5f53-946f-80deba702f9d"
+    },
+    {
+      "ref": "J7",
+      "value": "TILE 7",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "HALL_V",
+        "3": "HALL7"
+      },
+      "x": 8,
+      "y": 51.8,
+      "angle": 0,
+      "uuid": "b77c42ff-7304-53a5-8ada-05492598fa82"
+    },
+    {
+      "ref": "R7",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "HALL_V",
+        "2": "HALL7"
+      },
+      "x": 20,
+      "y": 51.8,
+      "angle": 90,
+      "uuid": "b536476a-8c45-50f6-b5fd-aaf6f76546b5"
+    },
+    {
+      "ref": "J8",
+      "value": "TILE 8",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "HALL_V",
+        "3": "HALL8"
+      },
+      "x": 8,
+      "y": 58.6,
+      "angle": 0,
+      "uuid": "35275aec-f4ba-552d-a971-23f998c516f7"
+    },
+    {
+      "ref": "R8",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "HALL_V",
+        "2": "HALL8"
+      },
+      "x": 20,
+      "y": 58.6,
+      "angle": 90,
+      "uuid": "70650452-8fb0-5038-b348-1067781abe76"
+    },
+    {
+      "ref": "J9",
+      "value": "TILE 9",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "HALL_V",
+        "3": "HALL9"
+      },
+      "x": 8,
+      "y": 65.4,
+      "angle": 0,
+      "uuid": "ef378b0f-8d70-57d1-b8bc-b46934569314"
+    },
+    {
+      "ref": "R9",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "HALL_V",
+        "2": "HALL9"
+      },
+      "x": 20,
+      "y": 65.4,
+      "angle": 90,
+      "uuid": "80eb9017-f1a1-56ee-9afc-add4312542e9"
+    },
+    {
+      "ref": "U2",
+      "value": "74LVC244AD",
+      "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+      "pins": {
+        "1": "GND",
+        "19": "GND",
+        "10": "GND",
+        "20": "PICO_3V3",
+        "2": "HALL1",
+        "18": "TILE1",
+        "4": "HALL2",
+        "16": "TILE2",
+        "6": "HALL3",
+        "14": "TILE3",
+        "8": "HALL4",
+        "12": "TILE4",
+        "11": "HALL5",
+        "9": "TILE5",
+        "13": "GND",
+        "7": null,
+        "15": "GND",
+        "5": null,
+        "17": "GND",
+        "3": null
+      },
+      "x": 31,
+      "y": 23,
+      "angle": 0,
+      "uuid": "21fc68d1-eb97-5ba5-882e-9ace14a20dde",
+      "datasheet": "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf"
+    },
+    {
+      "ref": "U3",
+      "value": "74LVC244AD",
+      "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+      "pins": {
+        "1": "GND",
+        "19": "GND",
+        "10": "GND",
+        "20": "PICO_3V3",
+        "2": "HALL6",
+        "18": "TILE6",
+        "4": "HALL7",
+        "16": "TILE7",
+        "6": "HALL8",
+        "14": "TILE8",
+        "8": "HALL9",
+        "12": "TILE9",
+        "11": "LCD_RST_DELAY",
+        "9": "LCD_RST",
+        "13": "GND",
+        "7": null,
+        "15": "GND",
+        "5": null,
+        "17": "GND",
+        "3": null
+      },
+      "x": 31,
+      "y": 53,
+      "angle": 0,
+      "uuid": "34f21a80-7f3c-5666-a517-69ce9d1f8d02",
+      "datasheet": "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH244A.pdf"
+    },
+    {
+      "ref": "C1",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "PICO_3V3",
+        "2": "GND"
+      },
+      "x": 36.5,
+      "y": 15,
+      "angle": 90,
+      "uuid": "7e5c0b06-53f2-595a-888e-b03648919372"
+    },
+    {
+      "ref": "C2",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "PICO_3V3",
+        "2": "GND"
+      },
+      "x": 36.5,
+      "y": 45,
+      "angle": 90,
+      "uuid": "4282aa63-6506-5c50-8b3b-d003afffa6a0"
+    },
+    {
+      "ref": "JP1",
+      "value": "HALL SUPPLY: 1-2=3V3 / 2-3=5V",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "AUX_3V3",
+        "2": "HALL_V",
+        "3": "VBUS_5V"
+      },
+      "x": 24,
+      "y": 72,
+      "angle": 90,
+      "uuid": "5ceedf5d-d96c-58f3-9475-2a4aa7d11192"
+    },
+    {
+      "ref": "U4",
+      "value": "MCP1826S-3302E/DB",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "pins": {
+        "1": "VBUS_5V",
+        "2": "GND",
+        "3": "AUX_3V3"
+      },
+      "x": 79,
+      "y": 14,
+      "angle": 0,
+      "uuid": "7685c17a-e437-5b69-aef2-ef6ca70b47c8",
+      "datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf"
+    },
+    {
+      "ref": "C3",
+      "value": "10uF 16V X7R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "VBUS_5V",
+        "2": "GND"
+      },
+      "x": 71,
+      "y": 17,
+      "angle": 90,
+      "uuid": "490a2a28-343b-5466-8abd-d76d2099774a"
+    },
+    {
+      "ref": "C4",
+      "value": "10uF 16V X7R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AUX_3V3",
+        "2": "GND"
+      },
+      "x": 85,
+      "y": 17,
+      "angle": 90,
+      "uuid": "66e2348f-45af-550e-94f8-399ae6b1f710"
+    },
+    {
+      "ref": "J10",
+      "value": "LCD",
+      "footprint": "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical",
+      "pins": {
+        "1": "PICO_3V3",
+        "2": "GND",
+        "3": "SPI_MOSI",
+        "4": "SPI_SCK",
+        "5": "LCD_CS",
+        "6": "LCD_DC",
+        "7": "LCD_RST",
+        "8": "PICO_3V3"
+      },
+      "x": 73,
+      "y": 45,
+      "angle": 0,
+      "uuid": "41534fe6-7ae3-53da-9a8e-6f06fede1ad1"
+    },
+    {
+      "ref": "J11",
+      "value": "SD",
+      "footprint": "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical",
+      "pins": {
+        "1": "AUX_3V3",
+        "2": "SD_CS",
+        "3": "SPI_MOSI",
+        "4": "SPI_SCK",
+        "5": "SPI_MISO",
+        "6": "GND"
+      },
+      "x": 78,
+      "y": 30,
+      "angle": 0,
+      "uuid": "47241865-3e7f-554c-b078-6f528e8e66a4"
+    },
+    {
+      "ref": "J12",
+      "value": "DAC / TLV320",
+      "footprint": "Connector_JST:JST_XH_B9B-XH-A_1x09_P2.50mm_Vertical",
+      "pins": {
+        "1": "VBUS_5V",
+        "2": "GND",
+        "3": "DAC_RST",
+        "4": "I2C_SDA",
+        "5": "I2C_SCL",
+        "6": "I2S_BCLK",
+        "7": "I2S_WCLK",
+        "8": "I2S_DATA",
+        "9": "GND"
+      },
+      "x": 71,
+      "y": 62,
+      "angle": 0,
+      "uuid": "837b0bfa-d54e-5b0b-876e-f7964d60a153"
+    },
+    {
+      "ref": "J13",
+      "value": "VOLUME",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "pins": {
+        "1": "PICO_3V3",
+        "2": "POT_WIPER",
+        "3": "GND"
+      },
+      "x": 82,
+      "y": 74,
+      "angle": 0,
+      "uuid": "e1b1295b-cb52-596f-9359-816b238abd36"
+    },
+    {
+      "ref": "C5",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "PICO_3V3",
+        "2": "GND"
+      },
+      "x": 73,
+      "y": 39,
+      "angle": 90,
+      "uuid": "aeda37b7-1929-552b-8db5-56004c0e0dcb"
+    },
+    {
+      "ref": "C6",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AUX_3V3",
+        "2": "GND"
+      },
+      "x": 78,
+      "y": 24,
+      "angle": 90,
+      "uuid": "d43be8ae-757b-57ed-aa35-182c64486cb1"
+    },
+    {
+      "ref": "C7",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "VBUS_5V",
+        "2": "GND"
+      },
+      "x": 71,
+      "y": 56,
+      "angle": 90,
+      "uuid": "b90bef38-fce5-556b-a2a9-fbd275bc59e5"
+    },
+    {
+      "ref": "C8",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "VOLUME_ADC",
+        "2": "GND"
+      },
+      "x": 68,
+      "y": 30,
+      "angle": 90,
+      "uuid": "6784bf76-925b-51fc-9e4e-4251e642f4a1"
+    },
+    {
+      "ref": "C9",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "LCD_RST_DELAY",
+        "2": "GND"
+      },
+      "x": 91,
+      "y": 53,
+      "angle": 90,
+      "uuid": "db0148ca-bce9-51bd-94ff-6cc8bd47e01d"
+    },
+    {
+      "ref": "C10",
+      "value": "10uF 16V X7R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AUX_3V3",
+        "2": "GND"
+      },
+      "x": 82,
+      "y": 24,
+      "angle": 90,
+      "uuid": "81f5c94a-8f5f-5789-94b8-fd3c898b51c9"
+    },
+    {
+      "ref": "R10",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "PICO_3V3",
+        "2": "LCD_CS"
+      },
+      "x": 68,
+      "y": 46,
+      "angle": 90,
+      "uuid": "ae37f21f-5386-5543-9f44-a7ea07ddc663"
+    },
+    {
+      "ref": "R11",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "AUX_3V3",
+        "2": "SD_CS"
+      },
+      "x": 69,
+      "y": 35,
+      "angle": 90,
+      "uuid": "26f1ea3d-169f-5e00-a09a-7719b96451a9"
+    },
+    {
+      "ref": "R12",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "PICO_3V3",
+        "2": "LCD_RST_DELAY"
+      },
+      "x": 85,
+      "y": 53,
+      "angle": 90,
+      "uuid": "b12d0949-6dd8-5be7-a420-e489585a6d96"
+    },
+    {
+      "ref": "R13",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "POT_WIPER",
+        "2": "VOLUME_ADC"
+      },
+      "x": 68,
+      "y": 26,
+      "angle": 90,
+      "uuid": "c7ebb80a-a8f8-548f-83c4-369f8e37eb7b"
+    },
+    {
+      "ref": "R14",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "DAC_RST",
+        "2": "GND"
+      },
+      "x": 67,
+      "y": 58,
+      "angle": 90,
+      "uuid": "47259fbb-4ba9-557c-a67e-856dee9a9a6c"
+    },
+    {
+      "ref": "R15",
+      "value": "33R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MCU_SCK",
+        "2": "SPI_SCK"
+      },
+      "x": 70,
+      "y": 21,
+      "angle": 0,
+      "uuid": "d545417d-2021-5f2a-b86a-1918b81cf637"
+    },
+    {
+      "ref": "R16",
+      "value": "33R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MCU_MOSI",
+        "2": "SPI_MOSI"
+      },
+      "x": 70,
+      "y": 39,
+      "angle": 0,
+      "uuid": "19f9e8a2-c669-5265-a777-5a1fbee9d6e7"
+    },
+    {
+      "ref": "R17",
+      "value": "33R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MCU_BCLK",
+        "2": "I2S_BCLK"
+      },
+      "x": 63,
+      "y": 56.5,
+      "angle": 0,
+      "uuid": "bccd81bb-c06f-5879-a15b-2ea94bc26cc4"
+    },
+    {
+      "ref": "R18",
+      "value": "33R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MCU_WCLK",
+        "2": "I2S_WCLK"
+      },
+      "x": 59,
+      "y": 56.5,
+      "angle": 0,
+      "uuid": "6cb239c8-72b6-5612-aa5f-97fe09513239"
+    },
+    {
+      "ref": "R19",
+      "value": "33R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MCU_I2S_DATA",
+        "2": "I2S_DATA"
+      },
+      "x": 55,
+      "y": 56.5,
+      "angle": 0,
+      "uuid": "6ae6739d-185e-5976-bd40-f90d53223a39"
+    },
+    {
+      "ref": "H1",
+      "value": "M3 clearance",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "x": 4,
+      "y": 4,
+      "angle": 0,
+      "uuid": "af66bbe8-a708-59c3-92e1-169155826910"
+    },
+    {
+      "ref": "H2",
+      "value": "M3 clearance",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "x": 96,
+      "y": 4,
+      "angle": 0,
+      "uuid": "0db59a80-192c-5318-b25a-b21273cfae5e"
+    },
+    {
+      "ref": "H3",
+      "value": "M3 clearance",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "x": 4,
+      "y": 76,
+      "angle": 0,
+      "uuid": "40eee79c-64d9-5684-9a3b-5bd0f4a46015"
+    },
+    {
+      "ref": "H4",
+      "value": "M3 clearance",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "x": 96,
+      "y": 76,
+      "angle": 0,
+      "uuid": "99659aa2-74d5-5c02-b175-5fc7ec8ba356"
+    }
+  ],
+  "notes": [
+    "100 x 80 mm outline is provisional; enclosure fit is unmeasured.",
+    "Pico USB is the only power input. Use a suitable 5 V supply; measure total current.",
+    "J1-J9: 1=GND, 2=HALL_V, 3=signal. Verify actual sensor pin order.",
+    "JP1: fit ONE shunt, default 1-2 for 3.3 V. Check sensor rating before 5 V.",
+    "Buffers require Nexperia 74LVC244AD with 5 V tolerant Schmitt inputs.",
+    "Speaker stays wired to DAC SPK+ and SPK-. Neither wire connects to GND.",
+    "LCD RST uses buffered 10k/100nF power-on reset; BL is always on. Validate cold starts.",
+    "Pico3V3 powers LCD, pot and buffers. AUX3V3 powers SD and selectable Hall rail.",
+    "U4 loss at 5 V input is 0.51 W at 300 mA; verify temperature in enclosure.",
+    "Connector order is the carrier order; build labeled adapter cables.",
+    "Firmware GPIO assignment preserved. Tile physical order must be traced."
+  ]
+}

@@ -1,0 +1,16 @@
+.venv/
+.audio-venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+.DS_Store
+.hardware-tests/
+.firmware/
+audio/
+*.wav
+*.mp3
+*.zip
+hardware/photos/
+*.kicad_prl
+*-backups/

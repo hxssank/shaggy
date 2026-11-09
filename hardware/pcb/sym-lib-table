@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Shaggy")(type "KiCad")(uri "${KIPRJMOD}/shaggy-carrier.kicad_sym")(options "")(descr "Shaggy carrier symbols")))
